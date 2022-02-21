@@ -220,7 +220,7 @@ footer {
 }
 
 h4 {
-  color: red;
+  color: blue;
 }
 
 /*Seccion login*/
@@ -366,7 +366,7 @@ p {
 
 .caja {
   color: black;
-  background-color: turquoise;
+  background-color: #110b6f;
 }
 
 .caja img {
