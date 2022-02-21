@@ -414,39 +414,18 @@ form label {
   width: 500px;
 }
 
-/*$primary:blue;
-$secundary:orange;
-$terciary:pink;
 
-$grayscale: map-merge (
-( "primary":pink,
-  "secundary":orange,
-  "terciary":blue
-  )
-);
-  
-.probando{
-  color: map-get($grayscale: secundary);
-}*/
 /*Mis viajes*/
 .form_mail {
-  background-color: grey;
+  background-color: white;
   width: 300px;
   height: 200px;
 }
 
-.para {
-  height: 200px;
-  background-color: red;
-}
 
-.box-1 {
-  width: 5em 1;
-}
 
-.box-2 {
-  width: 5em 2;
-}
+
+
 
 /*Calendario*/
 /*# sourceMappingURL=estilos.css.map */

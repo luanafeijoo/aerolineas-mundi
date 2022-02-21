@@ -384,25 +384,6 @@ display: inline-block;
   @include sizes(500px,50px);
 }
 
-/*$primary:blue;
-$secundary:orange;
-$terciary:pink;
-
-$grayscale: map-merge (
-( "primary":pink,
-  "secundary":orange,
-  "terciary":blue
-  )
-);
-  
-.probando{
-  color: map-get($grayscale: secundary);
-}*/
-
-
-
-
-
 /*Mis viajes*/
 
 //colores
@@ -436,8 +417,36 @@ $alto:200px;
 
   }
 
-/*Calendario*/
 
+/*Calendario*/
+.calendario{
+text-align: center;
+width: 300px;
+
+}
+.calendario2{
+list-style: none;
+display: grid;
+grid-template-columns: repeat(7, 1fr);
+padding:0;
+
+}
+
+
+li{ 
+text-align: right;
+}
+
+.first-day{
+
+grid-column-start: 6;
+}
+
+.day-name{
+background: #eee;
+font-weight: bold;
+text-align: center;
+}
 
 
 
