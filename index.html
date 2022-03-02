@@ -24,6 +24,38 @@
     </head>
 
     <body class="body">
+        <header>
+            <div class="header__div">
+                <nav class="navbar navbar-expand-md bg-dark  navbar-dark" id="nav1">
+                    <!-- Brand -->
+                    <a class="navbar-brand" href="index.html">Aerolineas Mundi</a>
+                <!-- Toggler/collapsibe Button -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Navbar links -->
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                    <a class="nav-link" href="ofertas.html">Ofertas y destinos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" class="header__item" href="viajes.html">Mis viajes</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" class="header__item" href="help.html">Centro de ayuda</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" class="header__item" href="calendario.html">Calendario</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" class="header__item" href="login.html">Iniciar sesion</a>
+                        </li>
+                    </ul>
+                    </div>
+                </nav>
+        </div>
+        </header>
 
 
     <div id="header"></div>
@@ -154,13 +186,13 @@
             integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
             crossorigin="anonymous"
         ></script>
-        <script>
+      <!-- <script>
             $( document ).ready(function() {
                 fetch("includes/header.html").then(
                     (response)=>{return response.text()}).
                     then((data)=>{document.querySelector("#header").innerHTML=data;});
 });
-        </script>
+        </script> -->
         
     </body>
 </html>
