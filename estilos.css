@@ -293,6 +293,13 @@ body {
 }
 
 /*ofertas*/
+
+.contenedor_ofertas{
+width:100%;
+margin:0 auto;
+overflow: hidden;
+
+}
 h2 {
   background-color: white;
   text-align: center;
@@ -365,14 +372,14 @@ p {
 }
 
 .caja {
-  color: black;
+  color: white;
   background-color: #110b6f;
 }
 
 .caja img {
   width: 350px;
   height: 150px;
-  background-color: tomato;
+  background-color: white;
 }
 
 /*Help*/
@@ -428,4 +435,10 @@ form label {
 
 
 /*Calendario*/
+.contenedor_calendario{
+  width:100%;
+  margin:0 auto;
+  overflow: hidden;
+  
+  }
 /*# sourceMappingURL=estilos.css.map */
